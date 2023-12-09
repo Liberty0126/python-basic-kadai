@@ -1,0 +1,12 @@
+#上辺 = top
+#下辺 = bottom
+#高さ = height
+#台形の面積 = area
+
+top = 10
+bottom = 20
+height = 5
+
+area = ((top + bottom) / 2) * height
+
+print("台形の面積：", area, "cm^2")
