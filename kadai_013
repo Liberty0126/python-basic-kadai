@@ -2,11 +2,14 @@
 #消費税 - tax
 
 def total_price(price, tax):
-
+    
+    tax = price * (tax / 100)
     total_price = price + tax
-    tax = price * 0.1
     
     print(f"{total_price}円")
 
-#仮に1367円の商品を購入し、10%の消費税が追加される場合
-total_price(1367, 10)
+#仮に1370円の商品を購入し、10%の消費税が追加される場合
+total_price(1370, 10)
+
+#仮に100円の商品を購入し、8%の消費税が追加される場合
+total_price(100, 8)
