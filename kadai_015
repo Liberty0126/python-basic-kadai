@@ -3,11 +3,11 @@ class Human:
         self.name = name
         self.age = age
 
-    def say_nameandage(self):
+    def printinfo(self):
         print(f"私は{self.name}です。{self.age}歳です。")
 
 Robert = Human(name='ロバート', age='34')
 Thomas = Human(name='トーマス', age='29')
 
-Robert.say_nameandage()
-Thomas.say_nameandage()
+Robert.printinfo()
+Thomas.printinfo()
